@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+body{margin:0px; padding:0px;}
+/*=================QODEME SLIDER CSS=================*/
+.sliderWrapper{ position:relative; background-color:#000; }
+#slider{ width:100%; text-align:center; overflow:hidden; height:600px;}
+#slider .slide{ width:100%; height:100%; float:left; display:none; position:relative;}
+#slider .slide img{ width:100%; height:100%;}
+#slider .slide .caption{ position:relative; text-align:center; margin:0 auto; display:block;}
+#slider .slide .caption a{ text-shadow:none; text-decoration:none;}
+#slider .slide .caption a:hover{ text-decoration:none;}
+#slider a.control{ text-decoration:none; font-size:100px;  color:rgba(255,255,255,0.6); border:solid 1px rgba(255,255,255,0.6); border-radius:50%; width:100px; height:100px; line-height:82px; font-weight:100;}
+#slider a.control:hover{ color:#fff; border:solid 1px #fff;}
+#slider .prev{ position:absolute; left:60px; top:30%;}
+#slider .next{ position:absolute; right:60px; top:30%;}
+.clr{ clear:both;}
+#slider .slide .sliedeOne{position:absolute; display:block; width:40%; top:20%; left:-100%;}
+#slider .sliedeOne p{ margin:0px; text-align:center; }
+#slider .sliedeOne p:nth-child(1){ font-size:65px; color:#fff; font-weight:200;line-height:70px; letter-spacing:4px;}
+#slider .sliedeOne p:nth-child(2){ font-size:120px; color:#fff; font-weight:bolder;  line-height:170px; }
+#slider .sliedeOne p:nth-child(3){ font-size:39px; color:#fff; font-weight:100; word-spacing:7px; letter-spacing:20px;}
+#slider .sliedeOne p:nth-child(4){ font-size:39px; color:#fff; font-weight:100; line-height:30px; word-spacing:7px; letter-spacing:20px;}
+#slider .sliedeOne p:nth-child(5){ line-height:80px; }
+#slider .sliedeOne a{ border:solid 2px #fff; padding:15px 15px; border-radius:10px; color:#fff; font-size:20px}
+#slider .sliedeOne a:hover{ background:rgb(34,40,94); color:#fff;}
+#slider .sliedeOne a:nth-child(1){ margin-right:20px !important;}
+
+
+#slider .slide .slideTwo{position:absolute; display:block; width:40%; top:30%; left:-100%;}
+#slider .slideTwo p{ margin:0px; text-align:center; }
+#slider .slideTwo p:nth-child(1){ font-size:80px; color:rgb(185,32,39); font-weight:900;line-height:70px; letter-spacing:10px;}
+#slider .slideTwo p:nth-child(2){ font-size:39px; color:#fff; font-weight:200;line-height:60px; word-spacing:4px; letter-spacing:4px;}
+#slider .slideTwo p:nth-child(3){line-height:60px;}
+
+#slider .slideTwo a{ border:solid 2px #fff; padding:15px 20px; border-radius:10px; color:#fff; font-size:20px}
+#slider .slideTwo a:hover{ background:rgb(185,32,39); color:#fff;}
+
+
+#slider .slide .slideThree{position:absolute; display:block; width:40%; top:20%; left:-100%;}
+#slider .slideThree p{ margin:0px; text-align:center; }
+#slider .slideThree p:nth-child(1){ font-size:65px; color:#fff; font-weight:200;line-height:70px; letter-spacing:4px;}
+#slider .slideThree p:nth-child(2){ font-size:120px; color:#fff; font-weight:bolder;  line-height:120px; }
+#slider .slideThree p:nth-child(3){ font-size:23px; color:#fff;  line-height:30px; font-weight:100; letter-spacing:2px; }
+#slider .slideThree p:nth-child(4){ line-height:80px;}
+#slider .slideThree a{ border:solid 2px #fff; padding:15px 15px; border-radius:10px; color:#fff; font-size:20px}
+#slider .slideThree a:hover{ background:rgb(237,121,35); color:#fff;}
+/*=================QODEME SLIDER CSS=================*/
+
